@@ -1,2 +1,6 @@
 # CryptoClustering
 Module 19 Challenge 
+In this challenge we used Crypto Market Data to prepare and use a standard scaler. We then found the best value for k by plotting the data with computed values into an elbow curve and viewing scatter plots. After finding the best value for k, we clustered the cryptocurrencies with K-means using the original scaled data and k equaling the determined best value of '4' in this particular assignment. After, we optimized the clusters with Principal Component Analysis and reduced the features to three principal components. The best value for k in this instance was also '4' but the values looked even better than the initial values before PCA.
+Finally, we created a composite plot by using hvPlot and the plus sign to view the original data and the PCA data in one column for both the elbow and scatter plots.
+The results of comparing the plots together of before and after data were indicitive that the PCA data and fewer features to cluster the data by improved the variance and created a stronger outcome.
+For this assignment, I followed along with some of the materials in office hours from Prof. Booth as well as utilized the XPert for the combined plots at the end of the assignment.
